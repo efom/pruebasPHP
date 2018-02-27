@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ejemplo Uso For</title>
-	<link rel="stylesheet" href="">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Ejemplo Uso For</title>
+		<link rel="stylesheet" href="">
+	</head>
 <body>
 	<br>
     Ejemplo de Ciclo<br>
@@ -17,7 +17,8 @@
 		}
 	}
 	?>
-
+ 
+ 
 	<br><br>
     <?php
     $i = 1;
