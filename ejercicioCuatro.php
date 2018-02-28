@@ -7,30 +7,16 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	<h2>Presupuesto</h2>
-	<form class="formulario" action="" id="formulario" method="post">
+	<h2>Presupuesto para cada area del hospital</h2>
+	<form class="formulario" action="ejercicioCuatroRecibe.php" id="formulario" method="post">
 	<div>
 		<div>
-			<label for="Presupuesto">Monto presupuestal</label></br>
+			<label for="Presupuesto">Monto presupuestal del hospital</label></br>
 			<input type="text" name="Presupuesto" placeholder="Presupuesto" required /></br>
 		</div></br>
 		<button class="submit" name="enviar" type="submit">Enviar</button></br>
 	</div>
 	</form>
 
-	<br><br><br>
-
-	<center>
-		<?php  
-	        if(isset($_POST["enviar"])){
-	            $presupuesto = $_POST["Presupuesto"];
-
-	            print "Presupuesto ginecologia ".($presupuesto*0.4)." <br><br>";
-	            print "Presupuesto traumatología ".($presupuesto*0.3)." <br><br>";
-	            print "Presupuesto pediatría ".($presupuesto*0.3)." <br><br>";
-
-	        }
-	    ?>
-	</center>
 </body>
 </html>

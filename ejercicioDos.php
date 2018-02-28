@@ -39,10 +39,10 @@
 	</style>
 </head>
 <body>
-	<form class="formulario" action="" id="formulario" method="POST">
+	<form class="formulario" action="ejercicioDosRecibe.php" id="formulario" method="POST">
 		<div>
 			<fieldset>
-				<h2>SALARIO</h2>
+				<h2>Salario vendedor automoviles</h2>
 				<div>
 					<label for="nombre">Nombre del vendedor</label></br>
 					<input type="text" name="nombre" placeholder="Nombre" required /></br>
@@ -59,22 +59,6 @@
 			</fieldset>
 		</div>
 	</form>
-
-	<br><br><br>
-
-	<center>
-		<?php  
-	        if(isset($_POST["enviar"])){
-	            $nombre     = $_POST["nombre"];
-	            $cantidad   = $_POST["cantidad"];
-	            $totalVenta = $_POST["totalVenta"];
-
-				$valorFinalPagar = (450000+(50000*$cantidad)+($totalVenta*0.05));
-
-	            print "El salario final del vendedor $nombre es $valorFinalPagar$";
-	        }
-	    ?>
-	</center>
 
 </body>
 </html>
