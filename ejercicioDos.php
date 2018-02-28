@@ -39,7 +39,7 @@
 	</style>
 </head>
 <body>
-	<form class="formulario" action="" id="formulario" method="post">
+	<form class="formulario" action="" id="formulario" method="POST">
 		<div>
 			<fieldset>
 				<h2>SALARIO</h2>
@@ -48,14 +48,14 @@
 					<input type="text" name="nombre" placeholder="Nombre" required /></br>
 				</div>
 				<div>
-					<label for="nombre">Cantidad automoviles vendidos</label></br>
+					<label for="cantidad">Cantidad automoviles vendidos</label></br>
 					<input type="text" name="cantidad" placeholder="Cantidad automoviles" required /></br>
 				</div>
 				<div>
-					<label for="nombre">Precio total automoviles vendidos</label></br>
-					<input type="text" name="totalVenta" placeholder="Precio total" required /></br>
+					<label for="totalVenta">Precio total automoviles vendidos</label></br>
+					<input type="text" name="totalVenta" placeholder="Total Ventas" required /></br>
 				</div></br>
-				<button class="submit" name="enviar" type="submit">Enviar</button></br>
+				<input type="submit" class="submit" name="enviar" value="Enviar"></br>
 			</fieldset>
 		</div>
 	</form>
